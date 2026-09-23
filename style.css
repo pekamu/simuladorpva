@@ -1,5 +1,5 @@
 body{
-    background-color: #FAF7F2;
+    background-color: #f5f8dc ;
     margin: 0px;
 }
 
@@ -7,13 +7,84 @@ body{
     display: flex;
     background-color: #f5f8dc ;
     justify-content: space-between;
-    
+    border-style: ridge;
+    border-color: beige;
 }
 
-.topo div{
-
+.topo2{
     margin: 10px;
     padding: 20px;
     font-size: 20px;
-    
 }
+
+.topo div{
+    margin: 10px;
+    padding: 20px;
+    font-size: 20px;
+}
+
+.perfil{
+    margin: 40px;
+    text-align: center;
+}
+
+.red{
+    color: red;
+}
+.project{
+    display: inline-flex;
+    gap: 20px;
+    padding: 10px;
+    background-color: green;
+    border-radius: 20px;
+    color:white
+}
+
+.contato{
+    display: inline-flex;
+    gap: 10px;
+    padding: 10px;
+    border-radius: 20px;
+    color: green;
+    border-style: solid;
+    border-color: green;
+}
+
+.mid{
+    display: inline-flex;
+    gap: 80px;
+    padding: 30px;
+    background-color: white;
+  
+}
+.formada{
+    text-align: left;
+}
+.habilidades{
+   display: flex;
+   gap: 12px;
+   
+}
+
+.habilidades div{
+   padding: 10px;
+   border-radius: 20px;
+   background-color: blanchedalmond;
+   font-weight: bold;
+   color:green;
+}
+
+#pro{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+.midfim{
+   display: inline-flex;
+   text-align: center;
+   
+}
+
+
+    
